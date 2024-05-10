@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@layer base {
+    body {
+        @apply font-sans;
+        @apply cursor-pointer;
+    }
+}
+
+.content{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.content:hover{
+    background-image: linear-gradient(
+        to right,
+        rgba(112,157,255,0.8),
+        hsla(242,74%,61%,0.1)
+          
+    ) !important;
+}
