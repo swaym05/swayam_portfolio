@@ -9,13 +9,13 @@ const Contact = () => {
       <form
         action="https://getform.io/f/nbdoxova"
         method="post"
-        className="flex flex-col max-w-[600px] w-full "
+        className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
           <p className="inline text-4xl font-bold border-b-4 border-text-custom text-gray-300 ">
             Contact
           </p>
-          <p className="py-4">
+          <p className="py-4 text-gray-300">
             !! Submit the form below to connect with me. or email:
             <a href="mailto:swaymdeep352@gmail.com">swaymdeep352@gmail.com </a>
           </p>
