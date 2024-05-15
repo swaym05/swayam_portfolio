@@ -41,7 +41,7 @@ const Home = () => {
               onMouseEnter={() => setHover(true)}
               onMouseLeave={() => setHover(false)}
               style={{ position: "stick", overflow: "hidden" }}
-              className=" text-white bg-bg-custom font-semibold rounded-lg border-2 px-5 py-3 my-2 hover:bg-[#ff5e62] hover:text-white hover:border-[#ff5e62] "
+              className="hidden text-white bg-bg-custom font-semibold rounded-lg border-2 px-5 py-3 my-2 hover:bg-[#ff5e62] hover:text-white hover:border-[#ff5e62] "
             >
               Download CV
               <span style={arrowStyle}>
